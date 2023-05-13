@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Labora">
+    <meta name="keywords" content="BHP, Szkolenie, Informatyka">
+    <meta name="author" content="Hubert Kraczkowski">
+    <meta name="author" content="Oleksandr Sosnovskyi">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kon.css">
+    <link rel="stylesheet" href="responsive_home.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive_bhp.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="resposive.footer.css">
+    <title>Kontakt</title>
+  
+</head>
+<div class="container">
+  <div class="dark">
+      <div class="logo">
+      <img src="1-removebg-preview 1.svg" alt="Logo firmy">
+      
+      <div class="header-description-rotate">
+        <h1>KONTAKT</h1>
+      </div>
+      
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Lab.html">Laboratorium</a></li>
+          <li><a href="">Usługi</a>
+            <ul>
+              <li><a href="ElectrServ.html">Usługi Elektryczne</a></li>
+                <li><a href="BHP.html">Usługi BHP</a></li>
+                <li><a href="InfServices.html">Usługi Informatyczne</a></li>
+            </ul>
+          </li>
+          <li><a href="Szkolenia.html">Szkolenia</a>
+          </li>
+          <li><a href="Kon.html">Kontakt</a></li>
+      </ul>
+      </nav>
+      <div class="description_header">
+          <div class="main-desc">
+              <h1>Zapoznaj się z naszą ofertą <h2>na terenie całego województwa i nie tylko</h2></h1>
+              <p>Oferujemy pomiary środowiska pracy, obsługę firm z zakresu BHP, pomiary instalacji elektrycznej oraz usługi z branży IT.</p>
+          </div>
+          
+          <div class="buttons">
+            <button onclick="$('html, body').animate({ scrollTop: $('.about-part').offset().top }, 1800)">Zapytaj się teraz!</button>
+              <button onclick="$('html, body').animate({ scrollTop: $('#map').offset().top }, 1800)">Gdzie nas znajdziesz!</button>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+     <!--heder for laptops and smartphone -->
+  <div class="mother">
+    <header class="header">
+      <div class="menu-btn">
+        <span class="menu-btn__burger"></span>
+      </div>
+  
+      <nav class="nav">
+        <ul class="menu-nav">
+          <li class="menu-nav__item active">
+            <a href="index.html" class="menu-nav__link">
+              Home
+            </a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="Lab.html" class="menu-nav__link">
+              Laboratorium
+            </a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="BHP.html" class="menu-nav__link">
+             Usługi BHP
+            </a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="InfServices.html" class="menu-nav__link">
+              Usługi Informatyczne
+            </a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="ElectrServ.html" class="menu-nav__link">
+             Usługi Elektroniczne
+            </a>
+             <li class="menu-nav__item">
+            <a href="Szkolenia.html" class="menu-nav__link">
+             Szkolenia
+            </a>
+             <li class="menu-nav__item">
+            <a href="Kon.html" class="menu-nav__link">
+             Kontakt
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  
+   
+      <section class="home">
+        <h2>Zapoznaj się z naszą ofertą</h2>
+        <h1 class="home__name">
+          
+  na terenie całego województwa<span class="home__name--last">  i nie tylko</span>
+        </h1>
+        <h2>
+          Oferujemy pomiary środowiska pracy, obsługę firm z zakresu BHP, pomiary instalacji elektrycznej oraz usługi z branży IT.
+        </h2>
+      </section>
+    </div>
+     <!--end -->
+
+    <main>
+        <h1 class="about-part" >Kontakt</h1>
+        <div class="line"></div>
+
+        <div class="form" id="my-form">
+            <img src="images/Kontakt/unsplash_TyanDMPxwHc (2).png" alt="Zdjęcie" class="left-image">
+            <div class="container-form">
+                
+                <h2>Formularz</h2>
+                
+                   <form action="mail.php" method="post" name="contactform" > <!-- onsubmit="return validateForm()" -->
+                  <div class="group-form">      
+                    <input type="text" name="name" id="name" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label for="name">Imię</label>
+                  </div>
+                    
+                  <div class="group-form">      
+                    <input type="text" name="subname" id="subname" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label for="subname">Nazwisko</label>
+                  </div>
+                  <div class="group-form">      
+                    <input type="email" name="email" id="email" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label for="email">Adres e-mail</label>
+                  </div>
+                  <div id="form-right"> 
+                    <div class="group-form">      
+                    <input name="message" id="message" required></textarea>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+
+                    </div>
+                  </div>
+                  <form>
+                    <div class="check-box-group">
+                      <label class="custom-checkbox" tabindex="0" aria-label="Checkbox Label">
+                        <input type="checkbox" name="checkbox1">
+                        <span class="checkmark"></span>
+                        <span class="label" id="label1">jakaś zgoda na RODO</span>
+                      </label>
+                    
+                      <label class="custom-checkbox" tabindex="0" aria-label="Another Label">
+                        <input type="checkbox" name="checkbox2">
+                        <span class="checkmark"></span>
+                        <span class="label" id="label2">i druga opcja</span>
+                      </label>
+                    </div>
+                    
+                    <ul class="actions">
+                      <li><input type="submit" name="submit" value="Wyślij" class="special"></li>
+                      <li><input type="reset" value="Reset" class="special"></li>
+                    </ul>
+                  </form>
+                    </ul>
+                  
+                </form>
+                 
+          
+                <!-- <button type="submit">Wyślij</button> -->
+            </div>
+          </div>
+<div id="map">
+        <h1 id="amazing-maps">Znajdź nas na Google Maps!</h1>
+        <div class="map-map-info">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1248.9111806888534!2d22.5661495963908!3d51.24076635358485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722571177a01169%3A0xaa62eb50946aed4d!2sP.W.%20LABORA%20s.c.!5e0!3m2!1spl!2spl!4v1678700937405!5m2!1spl!2spl"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div id="info">
+          <h1 id="tel">Biuro tel/fax</h1>
+          <p>
+              81 747 24 47
+          </p>
+          <h1 id="dyr">Dyrektor</h1>
+          <p>
+              603 649 461
+
+          </p>
+          <h1 id="kier">Kierownik Labora</h1> <p>
+              512 459 656
+
+          </p>
+          <h1 id="adres">Adres korespondencyjny</h1>
+          <p>
+              P. W. Labora s. c.20-103 Lublin
+      ul. Wesoła 7B
+          </p>
+      </div>
+        </div>
+        
+
+</div>
+
+  
+    
+
+    </main>
+    <footer> 
+      <div class ="footer-up">
+            <div class="footer-block">
+                    <img src="1-removebg-preview 1.svg" alt="Logo" id="footer-logo">
+                    <p>consectetur molestiae error repellat repellendus. Libero architecto quasi atque harum nesciunt consectetur</p>
+                  </div>
+                    
+                  <div class="footer-block"> 
+                    <h2>Quick-links</h1>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="Lab.html">Laboratorium</a></li>
+                      <li><a href="Szkolenia.html">Szkolenia</a></li>
+                      <li><a href="ElectrServ.html">Usługi elektryczne</a></li>
+                      <li><a href="Kon.html">Kontakt</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-block">
+                    <h2>Kontakt</h2>
+                    <div class="footer-contact">
+                    <div class="footer-contact1">
+                      <img src="images/main-page/drafts.svg" alt="Obrazek kontaktowy 2">
+                      <img src="mail.svg" alt="" id="moje-zdjecie">
+                    </div>
+                    <div class="footer-contact2">
+                      <img src="images/main-page/smartphone.svg" alt="Obrazek kontaktowy 1">
+                     <P>81 747 24 47 - biuro</P> 
+                      <P>512 459 656 - laboratorium</P>
+                     <p> 603 649 461 - dział bhp</p>
+                    </div>
+                    
+                    </div>
+                    
+                  </div>
+
+                  <div class="footer-block">
+                    <div class="footer-address">
+                      <img src="images/main-page/house.svg" alt="Obrazek z adresem">
+                    <h2>Adres</h2>
+                    </div>
+                    
+                    <p>P. W. Labora s. c.</p>
+                    <p>20-103 Lublin ul. Wesoła 7B</p>
+                  </div>
+      </div>
+      
+    <div class="footer-bottom">
+      <p>&copy; 2023. P. W. Labora s. c. Wszelkie prawa zastrzeżone | </p>
+    </div>
+    </footer>
+      
+      <script src="about-content.js"></script>
+      <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+      <script src="main.js"></script>
+
+      <!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" /> -->
+     
+<script>
+
+  
+</script>
+</body>
+</html>

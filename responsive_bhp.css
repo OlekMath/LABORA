@@ -1,0 +1,70 @@
+@media screen and (max-width: 1700px) {
+
+    .description_header * {
+        transform: none !important;
+        animation: none !important;
+        transition: none !important;
+        }
+        .logo h1 {
+            display: none;
+        }
+        .description_header .buttons {
+        margin: 0% 5%;
+     
+   
+        
+        }
+        .description_header{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        
+        }
+        .navigation ul li ul li {
+            z-index: 1;
+        }
+
+
+        .main-desc {
+            margin:0 0;
+
+        }
+        .main-desc h1{
+            font-size: calc(2 * (1.0vh + 1.1vw));
+            position: relative;
+
+            margin: 0 calc(2 * (1.0vh + 1.1vw));
+        }
+        .main-desc h2{
+            font-size: calc(2 * (1.0vh + 1.1vw));
+            margin-right: 5%;
+            position: relative;
+        }
+
+        .main-desc p{
+            font-size: calc(1.5 * (1.0vh + 1.1vw));
+            position: relative;
+            translate: none;
+
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+
+            float: left;
+
+        }
+        .buttons button {
+            font-size: calc(0.5 * (1.5vh + 1.1vw));
+        }
+        .buttons button {
+            width: 20vw;
+            height: 5vh;
+            margin-top: 1rem;
+        }
+
+
+
+}

@@ -1,0 +1,113 @@
+@media screen and (max-width: 1670px) {
+    .footer-contact1 #moje-zdjecie {
+    transform: scale(3.8);
+    margin: 0 auto;
+    margin-left: 67px;  
+    }
+  } @media screen and (max-width: 1200px) {
+  
+    
+    .footer-block {
+    flex-basis: calc(33.33% - 20px);
+    }
+    .footer-block {
+    flex-basis: calc(50% - 20px);
+    }
+    .footer-block:nth-of-type(1) {
+    margin-right: 0;
+    }
+    }
+    @media (max-width: 768px) {
+    
+      .footer-block {
+        flex-basis: 100%;
+      }
+      .footer-block:nth-of-type(1) {
+      margin-right: 0px;
+      }
+      .footer-block:nth-of-type(2) {
+      margin-bottom: 40px;
+      }
+    
+      .footer-contact {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+  
+      .footer-address {
+      display: flex;
+      align-items: center;
+      }
+      .footer-address h2 {
+      margin-left: 10px;
+      margin-top: 0;
+      }
+      .footer-address img {
+      margin-right: 10px;
+      }
+      .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+      }
+      @media (max-width: 480px) {
+        .footer-block {
+          flex-basis: 100%;
+        }
+        .footer-block:nth-of-type(1) {
+          margin-right: 0px;
+          margin-bottom: 40px;
+        }
+        .footer-contact1 {
+          text-align: center;
+          margin-right: 0;
+        }
+        .footer-contact1 #moje-zdjecie {
+          transform: scale(3.5);
+          margin: 0 auto;
+          margin-left: 62px;
+        }
+        .footer-contact2 p {
+          margin: 0;
+          padding-top: 10px;
+          margin-top: 20px;
+        }
+        .footer-address h2 {
+          margin: 0;
+          padding-bottom: 10px;
+          margin-top: -70px;
+        }
+        .footer-contact {
+      
+        
+        }
+        .footer-contact2 img {
+          display: none;
+        
+        }
+      }
+      @media only screen and (max-width: 310px) {
+        .footer-contact1 #moje-zdjecie {
+          transform: scale(2.6);
+          margin: 0 auto;
+          margin-left: 42px;
+          
+        }
+        .footer-contact2 p {
+          font-size: 15px;
+        }
+      }
+      @media screen and (max-width: 387px){
+
+        .footer-bottom p {
+             padding-top: 30px;
+             border-top: 1px solid #cccccc2a;
+             color: rgba(255, 255, 255, 0.253);
+             font-size: 15px;
+             font-weight: bold;
+             margin-bottom: -30px;
+           }
+     
+     
+           }
